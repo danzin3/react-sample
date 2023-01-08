@@ -1,9 +1,10 @@
-import './App.css';
+import { BrowserRouter } from 'react-router-dom';
+import { AppRoutes } from './routes';
 
 export function App() {
   return (
-    <div className="App">
-      <h1>Every thing is up to date</h1>
-    </div>
+    <BrowserRouter>
+      <AppRoutes />
+    </BrowserRouter>
   );
 }
